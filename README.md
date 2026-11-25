@@ -2,6 +2,8 @@
 
 > Give Claude Code, Cursor, Codex, Antigravity, or any terminal agent the ability to send **HTML reports, interactive pages, Markdown docs, or any file** directly to your iPhone via [Stolnk](https://stolnk.com).
 
+![Push AI-generated HTML straight to your iPhone via Stolnk](./assets/demo.gif)
+
 ```bash
 curl --fail-with-body -F "file=@report.html" https://yourname.stolnk.com
 ```
@@ -30,10 +32,10 @@ Copy this folder into your skills directory:
 
 ```bash
 # Personal (available in all projects)
-git clone https://github.com/<your-github>/stolnk-skill.git ~/.claude/skills/stolnk-push
+git clone https://github.com/landar26/stolnk-skill.git ~/.claude/skills/stolnk-push
 
 # Or project-local
-git clone https://github.com/<your-github>/stolnk-skill.git .claude/skills/stolnk-push
+git clone https://github.com/landar26/stolnk-skill.git .claude/skills/stolnk-push
 ```
 
 ### Set your default inbox (optional)
